@@ -1,0 +1,23 @@
+﻿<Window x:Class="riven_buyer.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:riven_buyer"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="535.369" Width="794" BorderThickness="4" Background="Black">
+    <Border Background="Black" BorderThickness="4" CornerRadius="8,0,8,0" BorderBrush="#FFAC83D5">
+        <Grid x:Name="MainGrid">
+            <Button x:Name="btn_make_offer" Content="Make an offer" Style="{StaticResource custom_border}" MouseEnter="MouseEnterCode" MouseLeave="MouseLeaveCode" HorizontalAlignment="Left" Margin="10,87,0,0" VerticalAlignment="Top" Width="276" Height="69" Click="btn_make_offer_Click"  BorderThickness="4" BorderBrush="#FFAC83D5" FontFamily="Open sans condensed" FontSize="24" FontWeight="Bold" Foreground="#FFAC83D5" Background="Black"/>
+            <Button x:Name="btn_buy_at_sellers_price" Content="Buy at sellers price" Style="{StaticResource custom_border}" MouseEnter="MouseEnterCode" MouseLeave="MouseLeaveCode" HorizontalAlignment="Left" Margin="10,244,0,0" VerticalAlignment="Top" Width="276" Height="69" Click="btn_buy_at_sellers_price_Click" BorderThickness="4" BorderBrush="#FFAC83D5" FontFamily="Open sans condensed" FontSize="24" FontWeight="Bold" Foreground="#FFAC83D5" Background="Black"/>
+
+            <TextBox x:Name="tbx_name_seller" HorizontalAlignment="Left" Height="69" Margin="300,87,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="452" BorderThickness="4" BorderBrush="#FFAC83D5" Background="Black" FontFamily="Open sans condensed" FontSize="36" FontWeight="Bold" Foreground="White" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
+            <TextBox x:Name="tbx_name_riven" HorizontalAlignment="Left" Height="69" Margin="300,244,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="452" BorderThickness="4" BorderBrush="#FFAC83D5" Background="Black" FontFamily="Open sans condensed" FontSize="36" FontWeight="Bold" Foreground="White" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
+            <TextBox x:Name="tbx_price" HorizontalAlignment="Left" Height="69" Margin="300,401,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="452" BorderThickness="4" BorderBrush="#FFAC83D5" Background="Black" FontFamily="Open sans condensed" FontSize="36" FontWeight="Bold" Foreground="White" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
+
+            <Label x:Name="lbl_seller" Style="{StaticResource custom_border3}" Content="Sellers name" HorizontalAlignment="Left" Margin="300,10,0,0" VerticalAlignment="Top" RenderTransformOrigin="-0.143,0.548" Height="67" Width="452" FontFamily="Open sans condensed" FontSize="36" Foreground="#FFAC83D5" BorderBrush="#FFAC83D5" BorderThickness="4" HorizontalContentAlignment="Center"  VerticalContentAlignment="Center" Padding="15" FontWeight="Bold" Background="Black"/>
+            <Label x:Name="lbl_riven" Style="{StaticResource custom_border3}" Content="Weapon name" HorizontalAlignment="Left" Margin="300,166,0,0" VerticalAlignment="Top" RenderTransformOrigin="-0.143,0.548" Height="67" Width="452" FontFamily="Open sans condensed" FontSize="36" FontWeight="Bold" Foreground="#FFAC83D5" BorderBrush="#FFAC83D5" BorderThickness="4" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Background="Black"/>
+            <Label x:Name="lbl_price" Style="{StaticResource custom_border3}" Content="Price" HorizontalAlignment="Left" Margin="300,322,0,0" VerticalAlignment="Top" RenderTransformOrigin="-0.143,0.548" Height="67" Width="452" FontFamily="Open sans condensed" FontSize="36" FontWeight="Bold" Foreground="#FFAC83D5" BorderBrush="#FFAC83D5" BorderThickness="4" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Background="Black"/>
+        </Grid>
+    </Border>
+</Window>

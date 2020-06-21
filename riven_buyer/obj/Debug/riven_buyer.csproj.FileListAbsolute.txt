@@ -1,0 +1,15 @@
+C:\Users\alucard\source\repos\riven_buyer\riven_buyer\bin\Debug\riven_buyer.exe.config
+C:\Users\alucard\source\repos\riven_buyer\riven_buyer\bin\Debug\riven_buyer.exe
+C:\Users\alucard\source\repos\riven_buyer\riven_buyer\bin\Debug\riven_buyer.pdb
+C:\Users\alucard\source\repos\riven_buyer\riven_buyer\obj\Debug\riven_buyer.csprojAssemblyReference.cache
+C:\Users\alucard\source\repos\riven_buyer\riven_buyer\obj\Debug\MainWindow.g.cs
+C:\Users\alucard\source\repos\riven_buyer\riven_buyer\obj\Debug\App.g.cs
+C:\Users\alucard\source\repos\riven_buyer\riven_buyer\obj\Debug\riven_buyer_MarkupCompile.cache
+C:\Users\alucard\source\repos\riven_buyer\riven_buyer\obj\Debug\riven_buyer_MarkupCompile.lref
+C:\Users\alucard\source\repos\riven_buyer\riven_buyer\obj\Debug\MainWindow.baml
+C:\Users\alucard\source\repos\riven_buyer\riven_buyer\obj\Debug\riven_buyer.g.resources
+C:\Users\alucard\source\repos\riven_buyer\riven_buyer\obj\Debug\riven_buyer.Properties.Resources.resources
+C:\Users\alucard\source\repos\riven_buyer\riven_buyer\obj\Debug\riven_buyer.csproj.GenerateResource.cache
+C:\Users\alucard\source\repos\riven_buyer\riven_buyer\obj\Debug\riven_buyer.exe
+C:\Users\alucard\source\repos\riven_buyer\riven_buyer\obj\Debug\riven_buyer.pdb
+C:\Users\alucard\source\repos\riven_buyer\riven_buyer\obj\Debug\App.baml
